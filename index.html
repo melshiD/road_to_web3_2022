@@ -30,7 +30,7 @@
         }
 
         body {
-            background-image: url('./assets/images/Capture.PNG');
+            /* background-image: url('./assets/images/galaxy.jpg'); */
             background-size: cover;
             background-repeat: no-repeat;
             background-color: #242F3F;
@@ -45,7 +45,8 @@
             /* justify-self: center; */
             margin-right: 2em;
             margin-bottom: 20px;
-            text-shadow: 2px 2px #242F3F;
+            color: #f3d5a9;
+            text-shadow: 2px 2px #3a4c66;
         }
 
         .hide-loader {
@@ -92,16 +93,19 @@
             outline: none;
             border: none;
             /* text-align: end; */
+            cursor: pointer;
         }
 
         #btn-login {
             font-family: 'spectral sc';
+            color: #ccc7bf;
             font-weight: 400;
             align-self: center;
             margin-right: 360px;
             font-size: 1.5em;
-            background: url('./assets/images/plank_grain.PNG') no-repeat;
-            box-shadow: 2px 2px #242F3F;
+            background: #2b1506;
+            box-shadow: 4px 4px 4px #6891af;
+            text-shadow:  1px 1px #268cd4;
         }
 
         .logged-out {
@@ -310,7 +314,8 @@
                 </svg>
             </span> -->
         </button>
-        <h1>HARPOON!</h1>
+        <!-- <h1>HARPOON!</h1> -->
+        <h1>TO THE MOON!</h1>
     </div>
 
     <div class="loader-wrapper">
@@ -318,6 +323,7 @@
             <span class="loader-inner"></span>
         </span>
     </div>
+    <button id="btn-logout">Logout</button>
     <script src="main.js"></script>
     <script>
         window.addEventListener('load', (event) => {
@@ -336,9 +342,9 @@
             }
         }
 
-        Moralis.Web3.onAccountsChanged(async ([accounts]) => {
-            console.log('Accounts changed');
-        });
+        // Moralis.Web3.onAccountsChanged(async ([accounts]) => {
+        //     console.log('Accounts changed');
+        // });
     </script>
 
 </body>

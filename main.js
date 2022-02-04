@@ -1,8 +1,13 @@
-const { init } = require("express/lib/application");
-
 const serverUrl = "https://w3lanyjsypwl.usemoralis.com:2053/server";
 const appId = "VtT6uQ2vJwh8NpXLkTP9xwlylXvWZuZDBNngsib3";
 Moralis.start({ serverUrl, appId });
+
+
+// init = async () => {
+//     window.Web3 = await Moralis.Web3.enable();
+//     const user = await Moralis.User.current();
+// }
+
 
 //authentication
 async function login() {
@@ -24,16 +29,36 @@ async function login() {
     console.log("logged out");
   }
 
-  defineNewObject = async () => {
+  const defineNewObject = (data) => {
       const OnChainAccnCred = Moralis.Object.extend("OnChainAccnCred");
       const accnCred = new OnChainAccnCred();
-      accnCred.set('indBal', 'variable with data');
-      accnCred.set('indBalTimestanp');
+      accnCred.set('indBal', data);
+      accnCred.set('indBalTimestanp', 'more data');
 
-      await accnCred.save();
+      return accnCred;
+  }
+
+  async function saveEntry(){
+      await this.save()
   }
   
   document.getElementById("btn-login").onclick = login;
   document.getElementById("btn-logout").onclick = logOut;
-  
-  init();
+
+const wallet_account_array = [];
+let newWallet = defineNewObject('input Data');
+wallet_account_array.push(newWallet);
+newWallet = defineNewObject('more Data');
+wallet_account_array.push(newWallet);
+newWallet = defineNewObject('so much Data');
+wallet_account_array.push(newWallet);
+
+console.log(wallet_account_array);
+
+async function saveAllBalancesWithTimestamps(account_array){
+    account_array.forEach( accn => {
+        accn.saveEntry()
+    });
+}
+
+// await saveAllBalancesWithTimestamps(wallet_account_array);
