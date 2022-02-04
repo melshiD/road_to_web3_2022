@@ -33,32 +33,42 @@ async function login() {
       const OnChainAccnCred = Moralis.Object.extend("OnChainAccnCred");
       const accnCred = new OnChainAccnCred();
       accnCred.set('indBal', data);
-      accnCred.set('indBalTimestanp', 'more data');
+      accnCred.set('indBalTimestamp', 'more data');
 
       return accnCred;
-  }
-
-  async function saveEntry(){
-      await this.save()
   }
   
   document.getElementById("btn-login").onclick = login;
   document.getElementById("btn-logout").onclick = logOut;
 
 const wallet_account_array = [];
-let newWallet = defineNewObject('input Data');
-wallet_account_array.push(newWallet);
-newWallet = defineNewObject('more Data');
-wallet_account_array.push(newWallet);
-newWallet = defineNewObject('so much Data');
-wallet_account_array.push(newWallet);
 
-console.log(wallet_account_array);
+// Moralis.onAccountChanged( async (account) => {
+//     const confirmed = confirm("Link this address to your account?");
+//     if (confirmed) {
+//       await Moralis.link(account).then( () => console.log("it worked, you switched"));
+//     }
+//   });
 
-async function saveAllBalancesWithTimestamps(account_array){
-    account_array.forEach( accn => {
-        accn.saveEntry()
-    });
+Moralis.onAccountChanged(async ([account]) => {
+    const confirmed = confirm("Link this address to your account?");
+    if (confirmed) {
+      await Moralis.link(account).then( () => console.log("it worked, you switched"));
+    }
+    console.log(ethAddresses);
+});
+
+function getStats() {
+    const user = Moralis.User.current();
+    if (user) {
+        getUserTransactions(user);
+    }
+  }
+
+
+async function getUserTransactions(user) {
+    const query = new Moralis.Query("ethTransactions");
+    query.equalTo("from_address", user.get("ethAddress"));
+    const results = await query.find({useMasterKey: true});
+    console.log(results);
 }
-
-// await saveAllBalancesWithTimestamps(wallet_account_array);
