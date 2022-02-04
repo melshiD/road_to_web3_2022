@@ -1966,3 +1966,1113 @@ i'll give it a look. thanks for sharing
 
 Stephen McCarthy 14:25
 Awesome, added to cart Diego. Thanks for the recommendation! Looks very relevant
+
+adhish.eth 14:25
+One question popping up for copyright owners is, how do we protect copyrighted content on Web 3 and inherently decentralized platforms (where there is no central authority)?
+
+
+Satoshi Nakamoto 14:25
+@Diego ..clarification: by infinite games type of thinking u mean open wrld games or something else?
+
+
+Diego Bonifacino 14:26
+@satoshi, what do you mean by world games?
+
+
+Satoshi Nakamoto 14:26
+i mean open world games....like world of warcraft
+
+
+Stephen McCarthy 14:26
+"There are at least two kinds of games. One could be called finite, the other infinite. A finite game is played for the purpose of winning, an infinite game for the purpose of continuing to play."
+
+
+Mycaleum 14:26
+like open world sandboxes
+
+
+Preeti Adhikary joined the chat
+
+Mycaleum 14:27
+Aavegotchi type stuff
+
+
+Satoshi Nakamoto 14:27
+@Stephen...ohh alright. thanks
+
+
+Diego Bonifacino 14:27
+Thanks @stephen, great for bringing that
+
+
+ali konuk joined the chat
+
+Stephen McCarthy 14:27
+Np, first section in "Finite and Infinite Games" book Diego recommended :)
+
+
+Preeti Adhikary 14:27
+What's your view on interoperability and how this will shape the gaming industry?
+
+
+Diego Bonifacino 14:28
+@satoshi, I suppose it is about how to go between games, beyond a single one... and evolve.
+
+
+Satoshi Nakamoto 14:29
+@Diego ohh alright...like in ready player one? a network they all share but they hop from game to game according to what they prefer to play?
+
+
+HuiChi Man joined the chat
+
+Stephen McCarthy 14:30
+platformatize all the things!!1
+
+
+Luis Xavier Padilla 14:30
+Thanks @Kartik!
+
+
+Luis Xavier Padilla 14:31
+On my way Justin!
+
+
+felix px joined the chat
+
+felix px joined the chat
+
+felix px 14:31
+👋
+
+
+Andor Szabó joined the chat
+
+Justin Fleagle 14:31
+gm
+
+
+adhish.eth 14:32
+Thank you, Justin and Kartik for this insightful conversation.
+
+
+Priyank Gupta joined the chat
+
+Luis Xavier Padilla 14:32
+The food marketplace for starters
+
+
+Stephen McCarthy 14:32
+Thanks Justin!
+
+
+Priyank Gupta 14:32
+I would like to check out the jobs page of Fractal
+
+
+Preeti Adhikary 14:32
+This was great. Thanks!
+
+
+Priyank Gupta 14:32
+Where to look
+
+
+Priyank Gupta 14:32
+???
+
+
+Luis Xavier Padilla 14:32
+Thanks justin!
+
+
+0xSaurav 14:32
+amazing insights...
+
+
+0xSaurav 14:32
+lot of things happening and lot more to come
+
+
+William Howard joined the chat
+
+Stephen McCarthy 14:33
+Hey Jonathan and Matt!
+
+
+Mini Chiu joined the chat
+
+Gurminder Rai joined the chat
+
+houshang yousefian 14:35
+gm
+
+
+Diego Bonifacino 14:35
+We need to get Matt's definition in writing =)
+
+
+Stephen McCarthy 14:35
+:)
+
+
+Luis Xavier Padilla 14:35
++1
+
+
+Luis Xavier Padilla 14:35
+We need to get Matt's definition on-chain
+
+
+Stephen McCarthy 14:35
+There will be a quiz at the end of the session on metaverse definition
+
+
+Tim Glover 14:35
+Matt has thought this through xD
+
+
+Ellie Reid joined the chat
+
+Colm Mc Geever joined the chat
+
+Stephen McCarthy 14:36
+Anyone else planning on working on a Metaverse-related hack for the hackathon?
+
+
+Luis Xavier Padilla 14:36
+yes
+
+
+mohaimen alsamarai joined the chat
+
+Colm Mc Geever joined the chat
+
+Satoshi Nakamoto 14:36
+sometimes I have this thought of us pushing past our current boundaries whilst a type IV civilization just be chillin and sippin some ayahuasca and enjoying watching tadpoles grow hind legs(metaphorical to our progress)
+
+
+Luis Xavier Padilla 14:37
+everyday seems more and more impossible *
+
+
+Luis Xavier Padilla 14:37
++1 on the yasca
+
+
+Stephen McCarthy 14:37
+Can't wait to play with the self-transforming machine elfs more @Satoshi
+
+
+Sulaiman Sultan joined the chat
+
+Sulaiman Sultan 14:40
+Can someone explain what we're supposed to be doing in this machine instance?
+
+
+Luis Xavier Padilla 14:40
+building super dApps
+
+
+Sulaiman Sultan 14:40
+Sounds good
+
+
+Sulaiman Sultan 14:40
+Thanks
+
+
+Luis Xavier Padilla 14:40
+*sips on yasca*
+
+
+Pablo Poggio 14:41
+lol
+
+
+Sulaiman Sultan 14:41
+LOLOLOLOL
+
+
+Stephen McCarthy 14:42
+@Sulaiman gotta find a reality heap overflow bug to escape the reality machine
+
+
+Stephen McCarthy 14:43
+no luck in walking through walls yet by running into them over and over unfortunately :(
+
+
+Luis Xavier Padilla 14:43
+What is real?
+
+
+@devjutsu joined the chat
+
+Stephen McCarthy 14:44
+simply electrical signals interpreted by your brain? :P
+
+
+Luis Xavier Padilla 14:44
+off topic but checkout "a course on miracles" the book that inspired the wachowski
+
+
+"Karate" Karadi joined the chat
+
+0xSaurav 14:45
+Question for Panel: How soon could we anticipate an ecommerce metaverse - like an entire Amazon.com on a metaverse ?
+
+
+Luis Xavier Padilla 14:45
+Sunday 9pm ET
+
+
+0xSaurav 14:45
+ahahhaah :)
+
+
+Luis Xavier Padilla 14:45
+^_^ (will stop bothering now)
+
+
+Sulaiman Sultan 14:46
+@Stephen Dont thinks there is much we can do to overflow the buffer
+
+
+0xSaurav 14:46
+Schools on Metaverse !
+
+
+0xSaurav 14:46
+from homeschooling to Meta-Schooling
+
+
+adhish.eth 14:46
+Ready Player One vibes
+
+
+Sulaiman Sultan 14:46
+Think*
+
+
+Stephen McCarthy 14:47
+lol @Sulaiman hoping for some old format string issues embedded deep in the code :P
+
+
+Sulaiman Sultan 14:47
+Hahahahaha
+
+
+Sulaiman Sultan 14:47
+The good old days
+
+
+Stephen McCarthy 14:47
+haha indeed
+
+
+Muntaz Kaleem joined the chat
+
+adhish.eth 14:49
+Question: Would hardware/system(OS) manufacturers dictate the metaverse game? Since everyone is vertically integrating now. Would love Valve/Steam to enter this space with a focus on encouraging a decentralized metaverse platforms.
+
+
+@kartik (ETHGlobal) 14:49
+good question
+
+
+Diego Bonifacino 14:50
+Gamers with no skills = loose Now: No skills + NFTs = kick ***
+
+
+"Karate" Karadi joined the chat
+
+"Karate" Karadi 14:52
+Lovin my MetaEyepatch
+
+
+"Karate" Karadi 14:52
+Arrghhh
+
+
+Diego Bonifacino 14:52
++1
+
+
+Stephen McCarthy 14:52
+lol
+
+
+"Karate" Karadi 14:52
+Est serieaux!
+
+
+Profound Vanity joined the chat
+
+Faramarz Gholami 14:53
+hi every body
+
+
+"Karate" Karadi 14:55
+Wuv baby!
+
+
+"Karate" Karadi 14:55
+Wookin pa nub
+
+
+Stephen McCarthy 14:55
+How to differentiate meaningful value creation from monkey typewriter products in a way that doesn't require gatekeeping?
+
+
+Prasad Thammineni 14:55
+hello, hello!
+
+
+Erik Lagerway joined the chat
+
+Austin Griffith joined the chat
+
+Phat Whale 14:58
+Austin G is in da house!
+
+
+Austin Griffith 14:59
+💚🛠🚢
+
+
+Nicholas Ebel joined the chat
+
+Kristjan Kosic joined the chat
+
+Kristjan Kosic 15:00
+awesome discussion and feedback
+
+
+0xSaurav 15:01
+@Stephen - i feel that gets answered by the community buying into the project and supporting it... i feel there are some smart people out there and overall good projects creating value will attract people
+
+
+Stephen McCarthy 15:01
+Think we need ways to use proofs of shared experience somehow in a decentralized way and perhaps incorporate social graphs and human-identity as part of how we judge what is meaningful vs not
+
+
+0xSaurav 15:01
+yes, thats is an amazing idea
+
+
+Raeka Navidi joined the chat
+
+0xSaurav 15:02
+and a great topic for a great discussion :)
+
+
+Phat Whale 15:02
+and we love you Austin
+
+
+"Karate" Karadi 15:02
+Austin Bowtie Speedrun Friday!!!!
+
+
+Phat Whale 15:02
+Bowtie Friday!!!
+
+
+"Karate" Karadi 15:02
+With Nader Amplify Dabit
+
+
+Stephen McCarthy 15:02
+Yeah being able to reward meaningful community building/interaction is a key problem for sure @0xSaurav
+
+
+"Karate" Karadi 15:03
+&lt;3
+
+
+Joanna Picetti 15:03
+Love it
+
+
+"Karate" Karadi 15:03
+Nader also has react and book(s)
+
+
+"Karate" Karadi 15:03
+*js
+
+
+"Karate" Karadi 15:06
+Did he just subclass himself? Or is it a superset?
+
+
+@kartik (ETHGlobal) 15:06
+Let us know if you have any questions for Austin and Nader!
+
+
+William Howard 15:07
+Will this be viewable somewhere in full later?
+
+
+"Karate" Karadi 15:07
+Youtube
+
+
+"Karate" Karadi 15:07
+EthGLobal
+
+
+William Howard 15:07
+10-4 TY
+
+
+"Karate" Karadi 15:08
+:-D
+
+
+Mycaleum 15:08
+@kartik Does Austin miss Loogie #1743? I'm keeping him safe buddy.
+
+
+Phat Whale 15:09
+Austin u da best!
+
+
+"Karate" Karadi 15:10
+Nader https://dev.to/dabit3/the-complete-guide-to-full-stack-ethereum-development-3j13
+
+
+Christi Bandur 15:10
+Is anyone else excited to get started on their projects
+
+
+"Karate" Karadi 15:10
+Griffith Speedrun https://medium.com/@austin_48503/%EF%B8%8Fethereum-dev-speed-run-bd72bcba6a4c
+
+
+Travis Holland joined the chat
+
+Marwan Aziz 15:14
+hey @Austin!!
+
+
+Prasad Thammineni 15:14
+Is this the 16 hour video course by Patrick that @Austin was mentioning: https://youtu.be/M576WGiDBdQ
+
+
+@kartik (ETHGlobal) 15:14
+yup
+
+
+Sulaiman Sultan 15:15
+{}
+
+
+Sulaiman Sultan 15:15
+ping
+
+
+Austin Griffith 15:16
+https://SpeedRunEthereum.com :)
+
+
+Mini Chiu joined the chat
+
+Nicholas Ebel 15:16
+Because this is the gang
+
+
+Austin Griffith 15:17
+Web3 next steps!! https://twitter.com/austingriffith/status/1483834810359377923
+
+
+Benjamin Osburn joined the chat
+
+Dexterous 15:18
+Hi
+
+
+Jacob Willemsma joined the chat
+
+Theisha Marie 15:19
+Thank you Austin for the lonl
+
+
+Hello Digital joined the chat
+
+Theisha Marie 15:19
+link* lol
+
+
+Joanna Picetti 15:20
+If we have to rebuild Trust in the entire humankind, we have to start trusting each other, so why you said Of-chain is complicated? and random numbers are also tricky on a deterministic public blockchain?
+
+
+"Karate" Karadi 15:20
+Smoove compared to the beat tools we has to use.
+
+
+"Karate" Karadi 15:21
+*had
+
+
+Pushpa Raj 15:22
+can anyone suggest resources to understand differences between different token types and their use cases explained for noobs? thank you
+
+
+Jack Urquizu 15:22
+https://ethereum.org/en/developers/docs/standards/tokens/
+
+
+Pushpa Raj 15:23
+thank you so much! @Jack Urquizu
+
+
+"Karate" Karadi 15:24
+I am having to up my js game significantly.
+
+
+"Karate" Karadi 15:24
+Top libraries: ethers.js, and the OpenZeppelin Suite.
+
+
+Jamaal Braille joined the chat
+
+Williams Evovo joined the chat
+
+Raeka Navidi 15:27
+Can you tell about MNBF
+
+
+Omar Garcia joined the chat
+
+"Karate" Karadi 15:28
+DevOps drinking game: Drink
+
+
+Theisha Marie 15:28
+Where do you tools like SQL
+
+
+fire chen 15:29
+Hello
+
+
+Colm Mc Geever joined the chat
+
+Joanna Picetti 15:29
+Why we have to build in one chain on another chain when we can build directly in an interplanetary way ? an off-chain interplanetary is supposed to be more open source than any chain individually, even if they are connected, with interoperability and composability... What are your thoughts?
+
+
+"Karate" Karadi 15:29
+EVM maximalist: AVAX, MATIC
+
+
+"Karate" Karadi 15:29
+ETH
+
+
+fire chen 15:30
+👻👻👻
+
+
+fire chen 15:30
+Suzao
+
+
+Joanna Picetti 15:31
+On off-chain you do not have to get the approve of all the nodes, its supposed to be faster and cheaper...
+
+
+Jacob Willemsma 15:31
+Test in prod
+
+
+"Karate" Karadi 15:32
+What do you refer to by Off-Chain. Is there a specific model you are referring to, @picetti?
+
+
+Luis Xavier Padilla 15:33
+Thanks Karate
+
+
+"Karate" Karadi 15:33
+Oh chit mang. Love.
+
+
+"Karate" Karadi 15:33
++1 Jacob
+
+
+"Karate" Karadi 15:33
+"We dont need no QA."
+
+
+Joanna Picetti 15:33
+Like IPFS.... we have to build new operating systems for the planet (s)
+
+
+Joanna Picetti 15:33
+https://planetarycouncil.org/
+
+
+"Karate" Karadi 15:33
+Agreed
+
+
+"Karate" Karadi 15:34
+I am aware of this.
+
+
+"Karate" Karadi 15:34
+*We are
+
+
+"Karate" Karadi 15:34
+Distributed Ownership!!!
+
+
+Satoshi Nakamoto 15:34
+talk about blockchain databases...dammit too late
+
+
+"Karate" Karadi 15:35
+2013? Prodigy!
+
+
+"Karate" Karadi 15:35
+:-D
+
+
+Theisha Marie 15:35
+Facts @"Karate" Karadi
+
+
+"Karate" Karadi 15:36
+That's. Superhero name FYI Spence'
+
+
+Theisha Marie 15:37
+put it the chat pls
+
+
+Jamaal Braille 15:37
+What is the name of this again?
+
+
+@kartik (ETHGlobal) 15:38
+ournetwork.substack.com
+
+
+Jamaal Braille 15:38
+Thanks
+
+
+"Karate" Karadi 15:38
+Another baddass name.
+
+
+Suze Suz 15:38
+nice
+
+
+Jamaal Braille 15:39
+"Karate" true inspiration
+
+
+ber Sa 15:39
+cool
+
+
+Chun yuhjiam 15:40
+hello
+
+
+Chun yuhjiam 15:40
+wow
+
+
+kura Sa joined the chat
+
+kura Sa 15:41
+Hi
+
+
+"Karate" Karadi 15:42
+Yo Yo Yo
+
+
+"Karate" Karadi 15:43
+She is talking about Community Crypto. Some call it Socialist Crypto. James Muldoon has a book on it.
+
+
+"Karate" Karadi 15:43
+Not trying to pigenhole. Forgive if I did.
+
+
+0xSaurav 15:43
+The coop is a great concept, and with the web3 tech it makes the distribution of ownership and rewards is more transparent
+
+
+"Karate" Karadi 15:43
+It really does.
+
+
+0xSaurav 15:43
+that transparency builds a lot of trust
+
+
+"Karate" Karadi 15:44
+We have some aggregation and concentration issues.
+
+
+Leo Lee joined the chat
+
+"Karate" Karadi 15:44
+Look at voting of major protocols. We all delegate.
+
+
+Joanna Picetti 15:44
+Of course yes @oxsaurav
+
+
+"Karate" Karadi 15:44
+We tend toward Republic rather than direct Democracy.
+
+
+Joanna Picetti 15:44
+https://solidproject.org/about
+
+
+Stephen Webber joined the chat
+
+"Karate" Karadi 15:45
+Interesting
+
+
+"Karate" Karadi 15:47
+Ownership. Power. Control. All interesting concepts.
+
+
+Poap King joined the chat
+
+"Karate" Karadi 15:47
+Wassup King'
+
+
+Joanna Picetti 15:47
+Pods
+
+
+Joanna Picetti 15:47
+Pods are where you store your data: Each Pod is fully controlled by the Pod owner (i.e., you).
+
+
+"Karate" Karadi 15:48
+Progressive Decentralization +1 https://a16z.com/2020/01/09/progressive-decentralization-crypto-product-management/
+
+
+Stephen Webber 15:48
+Interesting
+
+
+"Karate" Karadi 15:48
+The table is key from that article.
+
+
+Stephen Webber 15:49
+"You did it!"
+
+
+You Vin joined the chat
+
+You Vin 15:50
+hi
+
+
+Prasad Thammineni 15:50
+You are doing ***'s work @karate
+
+
+Stephen McCarthy 15:50
+Li Jin speaking deep truths :)
+
+
+Jacob Willemsma 15:50
+lol why is that censored
+
+
+Jacob Willemsma 15:50
+sorry Prasad
+
+
+Prasad Thammineni 15:50
+G-O-D
+
+
+Prasad Thammineni 15:51
+the censoring is funny. np @jacob
+
+
+Stephen McCarthy 15:52
+"cold start" problem
+
+
+behzad ghofranian joined the chat
+
+0xSaurav 15:52
+Whats the investment scenarios in Identity based dApps ?
+
+
+Poap King joined the chat
+
+Sanchit Goel 15:53
+@"Kartik" Karadi what's you @discord
+
+
+"Karate" Karadi 15:54
+Karate#9371 Bring da spam! (Please no!)
+
+
+Sanchit Goel 15:56
+haha
+
+
+You Vin joined the chat
+
+Braille.Vision 15:56
+It feels like we can develop support each other and propose what their involvement should be on our terms
+
+
+Stephen McCarthy 15:57
+:)
+
+
+0xSaurav 16:00
+Fashion in the MetaVerse !
+
+
+0xSaurav 16:00
+with AR + VR
+
+
+"Karate" Karadi 16:01
+NFTs for global deed and title directly affects land distribution and franschise.
+
+
+"Karate" Karadi 16:01
+A bit more foundational and less ****.
+
+
+"Karate" Karadi 16:01
+But vital for global power distribution. Especially if you look at Japan, Korea and the East Asian NICs.
+
+
+Vjeko Koki joined the chat
+
+Braille.Vision 16:02
+will be nice to establish new fashion brands that benefit the supporters more. we can dethrown the corporate giants
+
+
+Stephen McCarthy 16:02
+w00t. Thanks Li and Spencer
+
+
+Prasad Thammineni 16:02
+thank you Kartik and Ethglobal. I learned a lot.
+
+
+"Karate" Karadi 16:02
+Manana Peeples!
+
+
+"Karate" Karadi 16:03
+Love Love Love
+
+
+Joanna Picetti 16:03
+Thanks Ethglobal !!!
+
+
+Stephen McCarthy 16:03
+Great mind fuel Kartik!!!
+
+
+Maria Hess joined the chat
+
+Clarke Plumo 16:03
+Gn
+
+
+Braille.Vision 16:03
+Great info, thanks! Peace eerbody
+
+
+"Karate" Karadi 16:03
+:*
+
+
+@kartik (ETHGlobal) 16:03
+Thanks everyone!
+
+
+Stephen McCarthy 16:03
+Thanks everyone :)
+
+
+Nef Ramos 16:03
+good luck everyone!
+
+
+Jheave joined the chat
+
+Colm Mc Geever 16:03
+Thanks everyone. And good luck
+
+
+behzad ghofranian 16:03
+Thanks
+
+
+iman kh 16:03
+Thanks
+
+
+Phat Whale 16:03
+Thanks!
+
+
+Benjamin Osburn 16:04
+pleasure to watch with all of you!
+
+
+Jheave 16:04
+thanks
+
+
+sudh.eth 16:04
+🎉
+
+
+Omar Garcia 16:04
+Thanks
+
+
+Benjamin Osburn 16:04
+Check out Elysian Fields NFT collection on Opensea.io
+
+
+Stephen McCarthy 16:04
+Anyone who wants to continue chatting let's do so on Discord next few days on ETHGlobal server. I'm cryptonaut#4219 there :)
+
+
+houshang yousefian 16:04
+Thanks
+
+
+Benjamin Osburn 16:04
+empyreansource.io and send feedback to Zenzational#7151 on discord!
+
+
+Braille.Vision 16:07
+sneakerattics.io
+
+
+Braille.Vision 16:08
+A fun footwear project coming real soon
+
+
+Fi Roy 16:08
+thanks, awesome
+
+
+Amliy Lin joined the chat
+
+Braille.Vision 16:09
+No doubt
+
+
+Michael Sim joined the chat
+
+Hello Digital joined the chat
+
+Hello Digital joined the chat
+
+Mimo Xu joined the chat
+
+Wanzhou Meng joined the chat
+
+Alex Alfonso joined the chat
+
+Cindy Wu joined the chat
+
+Lily He joined the chat
+
+Dzmitry Mychko joined the chat
+
+Sam Gholami joined the chat
+
+Chris Reveles joined the chat
+
+Lisa Qiu joined the chat
+
+Mike Spade joined the chat
+
+Braille.Vision joined the chat
+
+Elie Naba joined the chat
+
+torchhorse 🔥🐎 joined the chat
+
+RongKun Lu joined the chat
+
+"Karate" Karadi joined the chat
+
+Bem Baraki 17:54
+whats appening guys
+
+
+"Karate" Karadi 17:55
+Watching the Sequence Zoom or youtube.
+
+
+"Karate" Karadi 17:56
+https://sequence.build
+
+
+"Karate" Karadi 17:57
+https://www.youtube.com/watch?v=r0pqEPKFJJ8
+
+
+corey kerdman joined the chat
+
+Gilang Adam joined the chat
+
+Diego Bonifacino joined the chat
+
+Jacob Ohlmann joined the chat
+
+Greg Bostrom joined the chat
+
+iridsscnt sphere joined the chat
+
+Peter Anyaogu joined the chat
+
+Jacob Ohlmann joined the chat
+
+"Karate" Karadi joined the chat
+
+"Karate" Karadi 23:54
+LoFi Beats beeches.
+
+
+"Karate" Karadi 23:54
+Up early and studying ethBrowser blocks with Ethers and Chainshot
+
+
+Faramarz Gholami joined the chat
+
+"Karate" Karadi 00:35
+OpenCBDC Thread on Boston Fed and MIT Research just released. https://twitter.com/cryptodiaries/status/1489382707293569024?s=21
+
+
+Chun yuhjiam joined the chat
