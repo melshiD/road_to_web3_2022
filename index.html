@@ -12,11 +12,11 @@
     <style>
         body,
         html {
+            font-family: 'galley';
             height: 100%;
             text-align: center;
         }
 
-        
         ::-webkit-scrollbar {
             /* make scrollbar transparent */
             width: 0px;
@@ -24,9 +24,23 @@
         }
 
         body {
+            background-image: url('./assets/images/Capture.PNG');
+            background-size: cover;
+            background-repeat: no-repeat;
             background-color: #242F3F;
             overflow-y: hidden;
             overflow-x: hidden;
+            font-family: 'galley';
+            display: flex;
+            justify-content: flex-end;
+        }
+
+        h1 {
+            font-size: 6em;
+            /* justify-self: center; */
+            margin-right: 2em;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px #242F3F;
         }
 
         .hide-loader {
@@ -44,7 +58,7 @@
             top: 0;
             left: 0;
             background-color: rgb(72, 72, 199);
-            /* transition: all 2s; */
+
         }
 
         .loader {
@@ -65,15 +79,41 @@
             animation: loader-inner 2s infinite ease-in;
         }
 
-        img {
-            margin: 3em 0;
-            box-shadow: 4px 4px 4px rgb(220, 229, 241);
-            border-radius: 1em;
+        button {
+            min-height: 2em;
+            max-height: 3em;
+            width: fit-content;
+            border-radius: 3px;
+            outline: none;
+            border: none;
+            
+        }
+    
+        #btn-login{
+            font-family: 'galley';
+            align-self: center;
+            margin-right: 360px;
+            font-size: 1.5em;
+            background: url('./assets/images/plank_grain.PNG') no-repeat;
+            box-shadow: 2px 2px #242F3F;
         }
 
-        button{
-            margin-top: 6em;
+        .logged-out {
+            display: none;
         }
+
+        .login-wrapper{
+            display: flex;
+            flex-flow: column-reverse;
+            justify-content: flex-end;
+        }
+
+        @font-face {
+            font-family: 'galley';
+            src: url('./assets/fonts/Galley.ttf');
+            src: url('./assets/fonts/Galley.otf');
+        }
+
 
         @keyframes loader {
             0% {
@@ -122,8 +162,11 @@
 </head>
 
 <body>
-    <button id="btn-login">Moralis Metamask Login</button>
-    <button id="btn-logout">Logout</button>
+    <div class="login-wrapper">
+        <button id="btn-login">Login with MetaMask</button>
+        <h1>HARPOON!</h1>
+    </div>
+
     <div class="loader-wrapper">
         <span class="loader">
             <span class="loader-inner"></span>
