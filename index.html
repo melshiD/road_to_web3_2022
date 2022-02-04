@@ -5,7 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Loader Example</title>
+    <title>BSI Mint</title>
+
+    <script src="https://unpkg.com/moralis/dist/moralis.js"></script>
+
     <style>
         body,
         html {
@@ -13,10 +16,11 @@
             text-align: center;
         }
 
+        
         ::-webkit-scrollbar {
+            /* make scrollbar transparent */
             width: 0px;
             background: transparent;
-            /* make scrollbar transparent */
         }
 
         body {
@@ -60,11 +64,15 @@
             background-color: rgb(241, 227, 227);
             animation: loader-inner 2s infinite ease-in;
         }
-        
-        img{
+
+        img {
             margin: 3em 0;
-            box-shadow: 4px 4px 4px rgb(70, 126, 209) ;
+            box-shadow: 4px 4px 4px rgb(220, 229, 241);
             border-radius: 1em;
+        }
+
+        button{
+            margin-top: 6em;
         }
 
         @keyframes loader {
@@ -114,13 +122,8 @@
 </head>
 
 <body>
-    <button style="display:none;"></button>
-    <div class="photo"><img src="https://picsum.photos/700/300?random" alt="Random Photo from API"></div>
-    <div class="photo"><img src="https://picsum.photos/700/301?random" alt="Random Photo from API"></div>
-    <div class="photo"><img src="https://picsum.photos/700/302?random" alt="Random Photo from API"></div>
-    <div class="photo"><img src="https://picsum.photos/701/300?random" alt="Random Photo from API"></div>
-    <div class="photo"><img src="https://picsum.photos/702/300?random" alt="Random Photo from API"></div>
-    <div class="photo"><img src="https://picsum.photos/703/300?random" alt="Random Photo from API"></div>
+    <button id="btn-login">Moralis Metamask Login</button>
+    <button id="btn-logout">Logout</button>
     <div class="loader-wrapper">
         <span class="loader">
             <span class="loader-inner"></span>
@@ -131,13 +134,14 @@
             document.querySelector('.loader-wrapper').classList.add('hide-loader');
             setTimeout(() => {
                 document.querySelector('body').style.overflowY = 'scroll';
+                document.querySelector('.loader-wrapper').style.zIndex = -1;
             }, 2000);
         });
 
-        async function login(){
+        async function login() {
             console.log('login clicked');
             const user = await Moralis.Web3.authenticate();
-            if(user){
+            if (user) {
                 console.log(user);
             }
         }
@@ -146,6 +150,8 @@
             console.log('Accounts changed');
         });
     </script>
+    <script type="text/javascript" src="main.js"></script>
+
 </body>
 
 </html>
