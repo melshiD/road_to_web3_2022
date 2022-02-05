@@ -2,7 +2,17 @@ const serverUrl = "https://w3lanyjsypwl.usemoralis.com:2053/server";
 const appId = "VtT6uQ2vJwh8NpXLkTP9xwlylXvWZuZDBNngsib3";
 Moralis.start({ serverUrl, appId });
 
+const { isInitialized, isAuthenticated, isWeb3Enabled, enableWeb3 } = useMoralis();
 
+useEffect(() => {
+  if (isInitialized && isAuthenticated && !isWeb3Enabled) {
+    enableWeb3();
+  }
+}, [
+  isInitialized,
+  isAuthenticated,
+  isWeb3Enabled
+]
 // init = async () => {
 //     window.Web3 = await Moralis.Web3.enable();
 //     const user = await Moralis.User.current();
@@ -72,3 +82,7 @@ async function getUserTransactions(user) {
     const results = await query.find({useMasterKey: true});
     console.log(results);
 }
+
+
+
+moralis-admin-cli watch-cloud-folder --moralisApiKey ohTeQrLHl8DL0xN --moralisApiSecret 0rCf5JScGiN0Ssq --moralisCloudfolder C:/Progra~1/User/davem/Coding/Hackathon/road_to_web3_2022/cloud --moralisSubdomain w3lanyjsypwl.usemoralis.com --autoSave 1
