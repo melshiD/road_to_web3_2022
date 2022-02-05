@@ -29,3 +29,14 @@ async function logOut(){
     await Moralis.User.logOut();
     console.log('logged out');
 }
+
+// async function getTransactions(user){
+async function getTransactions(){
+    // if(user){
+        const options = { address:`${Moralis.User.current().get('ethAddress')}`};
+        console.log(options);
+        const transactions = await Moralis.Web3API.account.getTransactions(options)
+            .then( (transactions) => console.log(transactions))
+            .catch( (err) => console.log(err));
+    // }
+}
