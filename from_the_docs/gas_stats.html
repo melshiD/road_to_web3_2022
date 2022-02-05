@@ -1,5 +1,4 @@
 <html>
-
 <head>
     <!-- Moralis SDK code -->
     <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
@@ -42,34 +41,28 @@
         function getStats() {
             const user = Moralis.User.current();
             if (user) {
-                getUserTransactions(user);
+                getUserTransactions();
             }
         }
 
-        async function getUserTransactions(user) {
-            // create query
-            const query = new Moralis.Query("EthTransactions");
-            query.equalTo("from_address", user.get("ethAddress"));
+        async function getUserTransactions() {
 
-            // subscribe to query updates ** add this**
-            const subscription = await query.subscribe();
-            handleNewTransaction(subscription);
+            const results = await Moralis.Cloud.run('getUserTransactionList');
+  
 
-            // run query
-            const results = await query.find();
             console.log("user transactions:", results);
         }
 
-        async function handleNewTransaction(subscription) {
-            // log each new transaction
-            subscription.on("create", function (data) {
-                console.log("new transaction: ", data);
-            });
-        }
+        // async function handleNewTransaction(subscription) {
+        //     // log each new transaction
+        //     subscription.on("create", function (data) {
+        //         console.log("new transaction: ", data);
+        //     });
+        // }
 
         //get stats on page load
-        getStats();
+        // getStats();
+
     </script>
 </body>
-
 </html>
