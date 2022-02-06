@@ -11,7 +11,7 @@ async function login(){
 
 function printUser(){
     const user = Moralis.User.current();
-    buildPopulateDisplayForm();
+    buildPopulateDisplayForm();//in its own file
     return user;
 }
 
@@ -22,12 +22,11 @@ Moralis.onAccountChanged( async (account) => {
     }
   });
   
-async function logOut(){
+async function logout(){
     await Moralis.User.logOut();
     console.log('logged out');
 }
 
-// async function getTransactions(user){
 async function getTransactions(accnAddy){
     // if(user){
         let options = { address: `${accnAddy}`};
@@ -44,9 +43,8 @@ async function setup(index){
     return transactions;
 }
 
-async function getTokenBalances(index){
-    let userAccounts = Moralis.User.current().attributes.accounts,
-        accnNeeded = userAccounts[index];
+async function getTokenBalances(accnNeeded){
+    // let userAccounts = Moralis.User.current().attributes.accounts,
     let balance = await Moralis.Web3API.account.getTokenBalances({address: accnNeeded});
     return balance;
     //let balance = await getTokenBalances(index);
@@ -56,38 +54,10 @@ function grabTokenIconLink(balance){
     return balance.logo;
 }
 
-function buildPopulateDisplayForm(){
-    let userAccounts = Moralis.User.current().attributes.accounts;
-    let userForm = document.createElement('form');
-    userForm.classList.add('wallet-address');
-    for(accn of userAccounts){
-        let toggle = document.createElement('input');
-        toggle.setAttribute('type', 'checkbox');
-        toggle.setAttribute('id', accn);
-        userForm.appendChild(toggle);
-        let label = document.createElement('label');
-        label.setAttribute('for', accn);
-        label.innerHTML = accn;
-        userForm.appendChild(label);
-        toggle.addEventListener('change', function(){
-            console.log(this.checked);
-            let id = this.getAttribute('id');
-            console.log(id);
-            updateCheckedAddy(id, this.checked);
-        });
-    }
-
-    return userForm;
-}
-
-function postForm(){
-    let userForm = buildPopulateDisplayForm();
-
-    // WHEN YOU SIT BACK DOWN YOU'RE GOING TO BUILD OUT THE FEATURE THAT POPULATES ALL THE 
-    // FANCY BALANCES AND IMAGES, THEN YOU'RE GOING TO INTEGRATE WALLETT CONNECT
-    //actually, just populate everything, and use the checks to apply a display:none class
-
-    document.body.appendChild(userForm);
+async function postForm(){
+    await buildPopulateDisplayForm();
+    // let userForm = await buildPopulateDisplayForm();
+    // document.body.appendChild(userForm);
 }
 
 function updateCheckedAddy(addy, isChecked){
