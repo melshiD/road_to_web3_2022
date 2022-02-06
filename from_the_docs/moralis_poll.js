@@ -1,3 +1,4 @@
+
 const serverUrl = "https://n38ddwysgkxq.usemoralis.com:2053/server";
 const appId = "zL6vhCdAuZ4SqEgTDyqfys0xVLlvmL5ebHMS3kvA";
 Moralis.start({ serverUrl, appId });
@@ -12,11 +13,6 @@ function printUser(){
     const user = Moralis.User.current();
     buildPopulateDisplayForm();
     return user;
-}
-
-function getEthAddress(){
-    const user = printUser();
-    console.log(user.get('ethAddress'));
 }
 
 Moralis.onAccountChanged( async (account) => {
@@ -73,17 +69,31 @@ function buildPopulateDisplayForm(){
         label.setAttribute('for', accn);
         label.innerHTML = accn;
         userForm.appendChild(label);
+        toggle.addEventListener('change', function(){
+            console.log(this.checked);
+            let id = this.getAttribute('id');
+            console.log(id);
+            updateCheckedAddy(id, this.checked);
+        });
     }
-    
 
     return userForm;
 }
 
+function postForm(){
+    let userForm = buildPopulateDisplayForm();
 
-// let transactions;
+    // WHEN YOU SIT BACK DOWN YOU'RE GOING TO BUILD OUT THE FEATURE THAT POPULATES ALL THE 
+    // FANCY BALANCES AND IMAGES, THEN YOU'RE GOING TO INTEGRATE WALLETT CONNECT
+    //actually, just populate everything, and use the checks to apply a display:none class
 
-// window.addEventListener('load', async () => {
-//     transactions = await setup();
-//     console.log(transactions);
-// });
+    document.body.appendChild(userForm);
+}
 
+function updateCheckedAddy(addy, isChecked){
+    console.log(`Checkbox for address: ${addy} ${isChecked?'is checked':'is unchecked'}`);
+}
+
+fetch('https://hackcheck.woventeams.com/api/v4/breachedaccount/test@example.com')
+  .then(response => response.json())
+  .then(data => console.log(data));
