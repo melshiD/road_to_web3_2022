@@ -93,7 +93,3 @@ function postForm(){
 function updateCheckedAddy(addy, isChecked){
     console.log(`Checkbox for address: ${addy} ${isChecked?'is checked':'is unchecked'}`);
 }
-
-fetch('https://hackcheck.woventeams.com/api/v4/breachedaccount/test@example.com')
-  .then(response => response.json())
-  .then(data => console.log(data));

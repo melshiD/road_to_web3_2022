@@ -1,0 +1,36 @@
+//first, I sign in with MetaMask.  Then witch MetaMask accns, and allow Moralis to link the accounts.
+undefined
+//Once I have an accounts array in the Moralis DB, I can access the content (the addresses) and query for most of what we need
+undefined
+postForm();
+undefined
+//now I have a form (very unstyled at the moment) with checkboxes next to addresses
+undefined
+moralis_poll.js:73 true
+moralis_poll.js:75 0x3eaf79d946dab635935f326ed66284f6a75351bb
+moralis_poll.js:94 Checkbox for address: 0x3eaf79d946dab635935f326ed66284f6a75351bb is checked
+//So there's the interface to the accns, and the functions available to populate forms for collecting assets to include in the NFT
+undefined
+//Now I'll query for balances on the 2nd account
+undefined
+let balances = getTokenBalances(1);//indexing 2nd account
+undefined
+balances;
+Promise {<fulfilled>: Array(0)}
+//woops
+undefined
+let balances = await getTokenBalances(1);//indexing 2nd account
+undefined
+balances;
+[]
+//ok, no balances there.  Let's try the first account
+undefined
+balances = await getTokenBalances(0);
+(5) [{…}, {…}, {…}, {…}, {…}]
+0: {token_address: '0x725c263e32c72ddc3a19bea12c5a0479a81ee688', name: 'Bridge Mutual', symbol: 'BMI', logo: 'https://cdn.moralis.io/eth/0x725c263e32c72ddc3a19bea12c5a0479a81ee688.png', thumbnail: 'https://cdn.moralis.io/eth/0x725c263e32c72ddc3a19bea12c5a0479a81ee688_thumb.png', …}
+1: {token_address: '0xaa7a9ca87d3694b5755f213b5d04094b8d0f0a6f', name: 'Trace', symbol: 'TRAC', logo: 'https://cdn.moralis.io/eth/0xaa7a9ca87d3694b5755f213b5d04094b8d0f0a6f.png', thumbnail: 'https://cdn.moralis.io/eth/0xaa7a9ca87d3694b5755f213b5d04094b8d0f0a6f_thumb.png', …}
+2: {token_address: '0x111111111117dc0aa78b770fa6a738034120c302', name: '1INCH Token', symbol: '1INCH', logo: 'https://cdn.moralis.io/eth/0x111111111117dc0aa78b770fa6a738034120c302.png', thumbnail: 'https://cdn.moralis.io/eth/0x111111111117dc0aa78b770fa6a738034120c302_thumb.png', …}
+3: {token_address: '0x9469d013805bffb7d3debe5e7839237e535ec483', name: 'Darwinia Network Native Token', symbol: 'RING', logo: 'https://cdn.moralis.io/eth/0x9469d013805bffb7d3debe5e7839237e535ec483.png', thumbnail: 'https://cdn.moralis.io/eth/0x9469d013805bffb7d3debe5e7839237e535ec483_thumb.png', …}
+4: {token_address: '0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48', name: 'USD Coin', symbol: 'USDC', logo: 'https://cdn.moralis.io/eth/0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48.png', thumbnail: 'https://cdn.moralis.io/eth/0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48_thumb.png', …}
+length: 5
+[[Prototype]]: Array(0)
