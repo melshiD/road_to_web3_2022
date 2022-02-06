@@ -10,6 +10,7 @@ async function login(){
 
 function printUser(){
     const user = Moralis.User.current();
+    buildPopulateDisplayForm();
     return user;
 }
 
@@ -31,12 +32,58 @@ async function logOut(){
 }
 
 // async function getTransactions(user){
-async function getTransactions(){
+async function getTransactions(accnAddy){
     // if(user){
-        const options = { address:`${Moralis.User.current().get('ethAddress')}`};
+        let options = { address: `${accnAddy}`};
         console.log(options);
-        const transactions = await Moralis.Web3API.account.getTransactions(options)
-            .then( (transactions) => console.log(transactions))
-            .catch( (err) => console.log(err));
-    // }
+        let transactions = await Moralis.Web3API.account.getTransactions(options);
+        return transactions;
 }
+
+async function setup(index){
+    let userAccounts = Moralis.User.current().attributes.accounts,
+        accnNeeded = userAccounts[index];
+    let transactions = [];
+    await getTransactions(accnNeeded).then(res => transactions = res.result);
+    return transactions;
+}
+
+async function getTokenBalances(index){
+    let userAccounts = Moralis.User.current().attributes.accounts,
+        accnNeeded = userAccounts[index];
+    let balance = await Moralis.Web3API.account.getTokenBalances({address: accnNeeded});
+    return balance;
+    //let balance = await getTokenBalances(index);
+}
+
+function grabTokenIconLink(balance){
+    return balance.logo;
+}
+
+function buildPopulateDisplayForm(){
+    let userAccounts = Moralis.User.current().attributes.accounts;
+    let userForm = document.createElement('form');
+    userForm.classList.add('wallet-address');
+    for(accn of userAccounts){
+        let toggle = document.createElement('input');
+        toggle.setAttribute('type', 'checkbox');
+        toggle.setAttribute('id', accn);
+        userForm.appendChild(toggle);
+        let label = document.createElement('label');
+        label.setAttribute('for', accn);
+        label.innerHTML = accn;
+        userForm.appendChild(label);
+    }
+    
+
+    return userForm;
+}
+
+
+// let transactions;
+
+// window.addEventListener('load', async () => {
+//     transactions = await setup();
+//     console.log(transactions);
+// });
+
